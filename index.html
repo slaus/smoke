@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Document</title>
+	<!-- Meta -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="author" content="Alexey Lungul" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="text/html" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta name="msapplication-TileImage" content="images/favicon.png">
+    <link rel="icon" type="image/png" href="images/favicon.png" sizes="152x152" />
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<!-- Bootstrap CSS-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!-- Normalize CSS -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<!-- Font Awesome -->
+	<script defer src="https://use.fontawesome.com/releases/v5.6.1/js/all.js" integrity="sha384-R5JkiUweZpJjELPWqttAYmYM1P3SNEJRM6ecTQF05pFFtxmCO+Y1CiUhvuDzgSVZ" crossorigin="anonymous"></script>
+	<!--  My CSS --> 
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="bac-top"></div>
+	<header>
+		<div class="container desc-menu d-none d-xl-block">
+			<div class="row">
+				<div class="col">
+					<div class="header-left d-flex flex-column justify-content-between h-100 p-2">
+						<div class="header-left-top d-flex flex-row justify-content-end">
+							<p>Need Help? Customer Support</p>
+							<a href="">1-866-236-8417</a>
+						</div>
+
+						<div class="header-left-bottom d-flex justify-content-end">
+							<ul class="menu d-flex">
+								<li><a href="">ABOUT IQOS</a></li>
+								<li><a href="">FREE TEST</a></li>
+								<li><a href="">BUY</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2 d-flex justify-content-center">
+					<a href="">
+						<img src="img/logo.png" alt="">
+					</a>
+				</div>
+				<div class="col">
+					<div class="right d-flex flex-column justify-content-between h-100 p-2">
+						<div class="header-right-top d-flex flex-row justify-content-start">
+							<div class="create-sign d-flex">
+								<a href="">
+									Sign In / Create an Account
+									<img src="img/user.png" alt="">
+								</a>
+								<a href="">Cart
+									<img src="img/cart.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="header-right-bottom d-flex justify-content-start">
+							<ul class="menu d-flex">
+								<li><a href="">SUPPORT </a></li>
+								<li><a href="">NEWS</a></li>
+								<li><a href="">REFER A FRIEND</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container mob-menu d-xl-none">
+			<div class="row">
+				<div class="col d-flex justify-content-start">
+					<a href="">
+						<img src="img/logo.png" alt="">
+					</a>
+				</div>
+				<div class="col d-flex justify-content-end">
+				<!-- nav mobile -->
+					<nav class="navbar navbar-light p-0">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+						  <span class="navbar-toggler-icon"></span>
+						</button>
+					</nav>
+				</div>
+				<div class="col-12 menu-s">
+					<ul class="menu d-flex flex-column">
+						<li><a href="">ABOUT IQOS</a></li>
+						<li><a href="">FREE TEST</a></li>
+						<li><a href="">BUY</a></li>
+						<li><a href="">SUPPORT </a></li>
+						<li><a href="">NEWS</a></li>
+						<li><a href="">REFER A FRIEND</a></li>
+						<div class="create-sign d-flex flex-row justify-content-center">
+							<a href="">
+								<img src="img/user.png" alt="">
+							</a>
+							<a href="">
+								<img src="img/cart.png" alt="">
+							</a>
+						</div>
+					</ul>
+				</div>	
+			</div>
+		</div>
+	</header>
+	<section class="main-banner">
+		<div class="container">
+			<div class="row">
+				<div id="carouselExampleIndicators" class="carousel slide w-100 d-none d-md-block" data-ride="carousel">
+				  <ol class="carousel-indicators d-flex justify-content-start">
+				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				  </ol>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				    	<div class="row">
+					    	<div class="col-md-6">
+					    		
+					    	</div>
+					    	<div class="col p-0">
+					      		<img class="d-block w-100" src="img/slider1.jpg" alt="First slide">
+					      	</div>
+				      	</div>
+					  <div class="carousel-caption d-none d-md-block">
+					  	<div class="row">
+						  	<div class="col-md-6 pl-5">
+							    <h5 class="text-md-right w-100">Our best IQOS ever has arrived. IQOS 3 - with its new compact and ergonomic design, take a moment to learn about our new IQOS ProtectPlus™ System - redefined protection and reliability for your IQOS</h5>
+							    <a class="banner-btn d-block float-left" href="">reed more</a>
+						    </div>
+						    <div class="col p-0 w-100">
+					      		<h5>new iqos 3</h5>
+					      	</div>
+						</div>
+					  </div>
+				    </div>
+				     <div class="carousel-item">
+				    	<div class="row">
+					    	<div class="col-md-6">
+					    		
+					    	</div>
+					    	<div class="col p-0">
+					      		<img class="d-block w-100" src="img/slider1.jpg" alt="First slide">
+					      	</div>
+				      	</div>
+					  <div class="carousel-caption d-none d-md-block">
+					  	<div class="row">
+						  	<div class="col-md-6 pl-5">
+							    <h5 class="text-md-right w-100">Our best IQOS ever has arrived. IQOS 3 - with its new compact and ergonomic design, take a moment to learn about our new IQOS ProtectPlus™ System - redefined protection and reliability for your IQOS</h5>
+							    <a class="banner-btn d-block float-left" href="">reed more</a>
+						    </div>
+						    <div class="col p-0 w-100">
+					      		<h5>new iqos 3</h5>
+					      	</div>
+						</div>
+					  </div>
+				    </div>
+				     <div class="carousel-item">
+				    	<div class="row">
+					    	<div class="col-md-6">
+					    		
+					    	</div>
+					    	<div class="col p-0">
+					      		<img class="d-block w-100" src="img/slider1.jpg" alt="First slide">
+					      	</div>
+				      	</div>
+					  <div class="carousel-caption d-none d-md-block">
+					  	<div class="row">
+						  	<div class="col-md-6 pl-5">
+							    <h5 class="text-md-right w-100">Our best IQOS ever has arrived. IQOS 3 - with its new compact and ergonomic design, take a moment to learn about our new IQOS ProtectPlus™ System - redefined protection and reliability for your IQOS</h5>
+							    <a class="banner-btn d-block float-left" href="">reed more</a>
+						    </div>
+						    <div class="col p-0 w-100">
+					      		<h5>new iqos 3</h5>
+					      	</div>
+						</div>
+					  </div>
+				    </div>
+				    
+				  </div>
+				  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="main-categories">
+		<div class="container">
+			<div class="row d-flex justify-content-xl-between justify-content-lg-around justify-content-center">
+
+					<a class="cat-item" href="">
+						<p class="text-center">IQOS 3</p>
+						<img class="m-0-auto" src="img/cat1.png" alt="">
+					</a>
+
+					<a class="cat-item" href="">
+						<p class="text-center">IQOS 3 multi</p>
+						<img class="m-0-auto" src="img/cat2.png" alt="">
+					</a>
+
+					<a class="cat-item" href="">
+						<p class="text-center">IQOS 2.4 Plus</p>
+						<img class="m-0-auto" src="img/cat3.png" alt="">
+					</a>
+
+					<a class="cat-item" href="">
+						<p class="text-center">HEETS</p>
+						<img class="m-0-auto" src="img/cat4.png" alt="">
+					</a>
+
+					<a class="cat-item" href="">
+						<p class="text-center">Compare</p>
+						<img class="m-0-auto" src="img/cat5.png" alt="">
+					</a>
+
+					<a class="cat-item" href="">
+						<p class="text-center">information</p>
+						<img class="m-0-auto" src="img/cat6.png" alt="">
+					</a>
+			
+
+
+			</div>
+		</div>
+	</section>
+	<section class="main-product">
+		<div class="container">
+			<div class="row">
+				<div class="p-1 p-xl-0 head-product d-flex flex-row justify-content-between w-100">
+					<h2>Most Polular Production</h2>
+					<a href="">See more</a>
+				</div>
+				<div class="content-product d-flex flex-row justify-content-xl-between w-100 flex-wrap justify-content-lg-around justify-content-center">
+					<div class="itam col d-flex flex-column">
+						<div class="product-save">
+							<p>SAVE 34%</p>
+						</div>
+						<div class="product-img d-flex justify-content-center">
+							<a href="">
+								<img src="img/itam1.jpg" alt="">
+							</a>
+						</div>
+						<div class="product-title">
+							<a href="" class="d-flex justify-content-center">
+								<p>Mobility Kit IQOS 2.4 Plus, White</p>
+							</a>
+						</div>
+						<div class="product-price">
+							<a href="" class="d-flex flex-row justify-content-center">
+								<p>€ 290</p>
+								<h4>€ 195</h4>
+							</a>
+						</div>
+						<div class="product-btn d-flex justify-content-center">
+							<a href="">Add to Cart</a>
+						</div>
+					</div>
+					<div class="itam col d-flex flex-column">
+						<div class="product-save">
+							<p>SAVE 34%</p>
+						</div>
+						<div class="product-img d-flex justify-content-center">
+							<a href="">
+								<img src="img/itam2.jpg" alt="">
+							</a>
+						</div>
+						<div class="product-title">
+							<a href="" class="d-flex justify-content-center">
+								<p>Mobility Kit IQOS 2.4 Plus, White</p>
+							</a>
+						</div>
+						<div class="product-price">
+							<a href="" class="d-flex flex-row justify-content-center">
+								<p>€ 290</p>
+								<h4>€ 195</h4>
+							</a>
+						</div>
+						<div class="product-btn d-flex justify-content-center">
+							<a href="">Add to Cart</a>
+						</div>
+					</div>
+					<div class="itam col d-flex flex-column">
+						<div class="product-save">
+							<p>SAVE 34%</p>
+						</div>
+						<div class="product-img d-flex justify-content-center">
+							<a href="">
+								<img src="img/itam3.jpg" alt="">
+							</a>
+						</div>
+						<div class="product-title">
+							<a href="" class="d-flex justify-content-center">
+								<p>Mobility Kit IQOS 2.4 Plus, White</p>
+							</a>
+						</div>
+						<div class="product-price">
+							<a href="" class="d-flex flex-row justify-content-center">
+								<p>€ 290</p>
+								<h4>€ 195</h4>
+							</a>
+						</div>
+						<div class="product-btn d-flex justify-content-center">
+							<a href="">Add to Cart</a>
+						</div>
+					</div>
+					<div class="itam col d-flex flex-column">
+						<div class="product-save">
+							<p>SAVE 34%</p>
+						</div>
+						<div class="product-img d-flex justify-content-center">
+							<a href="">
+								<img src="img/itam4.jpg" alt="">
+							</a>
+						</div>
+						<div class="product-title">
+							<a href="" class="d-flex justify-content-center">
+								<p>Mobility Kit IQOS 2.4 Plus, White</p>
+							</a>
+						</div>
+						<div class="product-price">
+							<a href="" class="d-flex flex-row justify-content-center">
+								<p>€ 290</p>
+								<h4>€ 195</h4>
+							</a>
+						</div>
+						<div class="product-btn d-flex justify-content-center">
+							<a href="">Add to Cart</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="p-1 p-xl-0 head-product d-flex flex-row justify-content-between w-100">
+					<h2>Most Polular Production</h2>
+					<a href="">See more</a>
+				</div>
+				<div class="content-product d-flex flex-row justify-content-xl-between w-100 flex-wrap justify-content-lg-around justify-content-center">
+					<div class="itam col d-flex flex-column">
+						<div class="product-save">
+							<p>SAVE 34%</p>
+						</div>
+						<div class="product-img d-flex justify-content-center">
+							<a href="">
+								<img src="img/itam1.jpg" alt="">
+							</a>
+						</div>
+						<div class="product-title">
+							<a href="" class="d-flex justify-content-center">
+								<p>Mobility Kit IQOS 2.4 Plus, White</p>
+							</a>
+						</div>
+						<div class="product-price">
+							<a href="" class="d-flex flex-row justify-content-center">
+								<p>€ 290</p>
+								<h4>€ 195</h4>
+							</a>
+						</div>
+						<div class="product-btn d-flex justify-content-center">
+							<a href="">Add to Cart</a>
+						</div>
+					</div>
+					<div class="itam col d-flex flex-column">
+						<div class="product-save">
+							<p>SAVE 34%</p>
+						</div>
+						<div class="product-img d-flex justify-content-center">
+							<a href="">
+								<img src="img/itam2.jpg" alt="">
+							</a>
+						</div>
+						<div class="product-title">
+							<a href="" class="d-flex justify-content-center">
+								<p>Mobility Kit IQOS 2.4 Plus, White</p>
+							</a>
+						</div>
+						<div class="product-price">
+							<a href="" class="d-flex flex-row justify-content-center">
+								<p>€ 290</p>
+								<h4>€ 195</h4>
+							</a>
+						</div>
+						<div class="product-btn d-flex justify-content-center">
+							<a href="">Add to Cart</a>
+						</div>
+					</div>
+					<div class="itam col d-flex flex-column">
+						<div class="product-save">
+							<p>SAVE 34%</p>
+						</div>
+						<div class="product-img d-flex justify-content-center">
+							<a href="">
+								<img src="img/itam3.jpg" alt="">
+							</a>
+						</div>
+						<div class="product-title">
+							<a href="" class="d-flex justify-content-center">
+								<p>Mobility Kit IQOS 2.4 Plus, White</p>
+							</a>
+						</div>
+						<div class="product-price">
+							<a href="" class="d-flex flex-row justify-content-center">
+								<p>€ 290</p>
+								<h4>€ 195</h4>
+							</a>
+						</div>
+						<div class="product-btn d-flex justify-content-center">
+							<a href="">Add to Cart</a>
+						</div>
+					</div>
+					<div class="itam col d-flex flex-column">
+						<div class="product-save">
+							<p>SAVE 34%</p>
+						</div>
+						<div class="product-img d-flex justify-content-center">
+							<a href="">
+								<img src="img/itam4.jpg" alt="">
+							</a>
+						</div>
+						<div class="product-title">
+							<a href="" class="d-flex justify-content-center">
+								<p>Mobility Kit IQOS 2.4 Plus, White</p>
+							</a>
+						</div>
+						<div class="product-price">
+							<a href="" class="d-flex flex-row justify-content-center">
+								<p>€ 290</p>
+								<h4>€ 195</h4>
+							</a>
+						</div>
+						<div class="product-btn d-flex justify-content-center">
+							<a href="">Add to Cart</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="bottom-banner">
+		<div class="container">
+			<div class="row content-banner">
+				<div class="col p-0">
+					<h5>IQOS is our innovative alternative to traditional smoking</h5>
+				</div>
+				<div class="col-lg-8 col-md-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit harum fuga rem eos consectetur, inventore, voluptate deleniti, velit saepe assumenda quod rerum eveniet ab asperiores vero qui aperiam? Provident tempore praesentium facere ea similique rem nesciunt dolorem dignissimos. Autem debitis ex mollitia, voluptates sint voluptatum inventore voluptatem delectus repellendus nulla. Eum totam omnis laudantium vitae expedita nobis quam ea quia. Minus vitae necessitatibus recusandae ipsam nemo unde minima, eius tempore, ducimus, beatae, sequi. 
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="bottom-categories">
+		<div class="container">
+			<div class="row d-flex justify-content-between justify-content-lg-around justify-content-md-around justify-content-sm-center">
+				<a href="" class="cat-bottom">
+					Order a free test-drive
+				</a>
+				<a href="" class="cat-bottom">
+					where to find ?
+				</a>
+				<a href="" class="cat-bottom">
+					shop iqos
+				</a>
+			</div>
+		</div>
+	</section>		
+	<footer>
+		<div class="container">
+			<div class="footer-content row">
+				<div class="col-md-3 col-sm-6">
+					<a href="">
+						<img src="img/logo.png" alt="">
+					</a>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<p>Legal</p>
+					<ul>
+						<li><a href="">Privacy Notice</a></li>
+						<li><a href="">Terms of Use</a></li>
+						<li><a href="">Cookie Notice</a></li>
+						<li><a href="">Company Information</a></li>
+						<li><a href="">Certificates</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<p>Customer Care</p>
+					<ul>
+						<li><a href="">Contact</a></li>
+						<li><a href="">Payment & Shipping</a></li>
+						<li><a href="">Warranty</a></li>
+						<li><a href="">FAQ</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<p>Follow us</p>
+					<div class="social">
+						<a href=""><img src="img/ico1.jpg" alt=""></a>
+						<a href=""><img src="img/ico2.jpg" alt=""></a>
+						<a href=""><img src="img/ico3.jpg" alt=""></a>
+					</div>
+					<form action="">
+						<input type="text" placeholder="Your Email address">
+						<input class="btn" type="submit" value="SEND">
+					</form>
+				</div>
+				<div class="products-site">
+					<p>© 2018 Philip Morris Products SA. All rights reserved</p>
+				</div>
+			</div>
+		</div>	
+	</footer>
+	<div class="bac-bottom"></div>
+	<!-- Bootstrap JS-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<!--  My JS -->
+	<script src="js/main.js"></script>
+</body>
+</html>
